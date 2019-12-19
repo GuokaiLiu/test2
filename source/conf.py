@@ -61,6 +61,12 @@ html_theme = 'default'
 
 html_static_path = ['_static']
 
+
+# Change the default width with a self-defined css(GuokaiLiu)
+html_css_files = [
+    'style.css',]
+
+
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Python-Time BLOG'
 
